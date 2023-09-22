@@ -1,0 +1,32 @@
+@import url('https://fonts.googleapis.com/css2?family=Rufina:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;0,300;0,400;0,500;1,300;1,600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@300;400;500;600&display=swap');
+
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.rufina{
+    font-family: 'Rufina', serif;
+}
+
+.poppins{
+    font-family: 'Poppins', sans-serif;
+}
+
+.roboto{
+    font-family: 'Roboto Slab', serif;
+}
+
+
+@font-face {
+    font-family: 'Elephant';
+    src: url('../ELEPHNT.TTF'); /* Replace with the correct file path and format */
+    /* Add more src entries for other font formats if needed */
+  }
+
+  /* Apply the Elephant font to an element */
+  .elephant-text {
+    font-family: 'Elephant', sans-serif;
+  }
