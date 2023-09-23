@@ -11,14 +11,6 @@ module.exports = {
           dark: "#224F34",
           DEFAULT: "#6BC785",
         },
-        accent: {
-          dark: "#DC8C00",
-          DEFAULT: "#EFA523",
-        },
-      },
-      boxShadow: {
-        base: "0 16px 24px 0 rgba(0, 0, 0, 0.2)",
-        "inner-helper": "inset 0 0 8px 0 rgba(0, 0, 0, 0.2)",
       },
     },
   },

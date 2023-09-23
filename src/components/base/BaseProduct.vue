@@ -9,11 +9,12 @@
         :alt="product.name"
         class="absolute bottom-0 object-cover h-full"
       />
+      <!-- w przypadku produktów z fakestore api dodaje zawsze zdjecie 'perosn1' poniewaz zdjęcia z api są moim zdaniem brzydkie -->
     </div>
     <div class="mt-[51px] flex flex-col">
       <span
         class="text-[#373737] text-center poppins text-[22px] font-semibold"
-        >{{ product.name ?? "Textured Sunset Shirt" }}</span
+        >{{ product.name ?? product.title }}</span
       >
       <div class="flex block mx-auto mt-2">
         <span class="mr-[39px] poppins text-[#454545] text-[22px]"

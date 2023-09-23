@@ -38,7 +38,7 @@
           class="w-full block mt-auto md:w-1/2 order-1 xl:order-2 xl:flex-1 xl:flex xl:justify-end"
         >
           <div
-            class="h-[420px] radius md-[530px] xl:h-[717px] bg-[#6BC785] xl:w-[570px] relative"
+            class="h-[420px] radius md-[530px] xl:h-[717px] bg-green xl:w-[570px] relative"
           >
             <img
               src="../../assets/personHero.png"
