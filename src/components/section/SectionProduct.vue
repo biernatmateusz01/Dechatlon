@@ -25,7 +25,7 @@
 
       <button
         type="button"
-        class="hover:gap-[8px] rounded-[3px] py-4 px-[55px] items-start border-2 border-green-dark text-[#224F34] mt-[80px] block mx-auto gap-[18px] text-[22px] flex items-center jsutify-center border"
+        class="hover:gap-[8px] rounded-[3px] py-4 px-[55px] ease-in duration-300 items-start border-2 border-green-dark text-[#224F34] mt-[80px] block mx-auto gap-[18px] text-[22px] flex items-center jsutify-center border"
         @click="getNewData"
       >
         See all
